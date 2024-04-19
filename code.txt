@@ -1,0 +1,25 @@
+
+
+	
+django-admin startproject demo	
+python3 manage.py startapp home
+
+python3 -m venv dmeo
+
+python3 -m pip install Django
+
+python3 -m compileall views.py
+
+
+python3 manage.py shell
+python3 manage.py seed
+python3 manage.py makemigrations   💥💥
+python3 manage.py migrate          💥💥
+python3 manage.py runserver        💥💥
+python3 manage.py runserver 192.168.0.110:8000
+python3 manage.py createsuperuser
+
+source env/bin/activate
+
+
+
